@@ -1,0 +1,48 @@
+
+li {
+	list-style: none;
+}
+
+html, body, ul, li {
+	box-sizing: border-box;
+}
+
+html, ul, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.keyboard {
+    transition: background-color .1s ease 0s;
+}
+.keyboard:active {
+    background-color: #DFFF30;
+}
+
+.white {
+	background-color: #fff;
+    float: left;
+    width: calc(100% / 10);
+    height: 100%;
+    border: 1px solid black;
+}
+
+.black {
+	background-color: #000;
+	position: absolute;
+	height: 60%;
+	width: calc(100% / 16);
+	border: 1px solid black;
+}
+
+.black:nth-child(11) {left: calc(110% / 16)}
+.black:nth-child(12) {left: calc(270% / 16)}
+.black:nth-child(13) {left: calc(430% / 16)}
+.black:nth-child(14) {left: calc(590% / 16)}
+.black:nth-child(15) {left: calc(740% / 16)}
+.black:nth-child(16) {left: calc(900% / 16)}
+.black:nth-child(17) {left: calc(1060% / 16)}
+.black:nth-child(18) {left: calc(1220% / 16)}
+.black:nth-child(19) {left: calc(1380% / 16)}
